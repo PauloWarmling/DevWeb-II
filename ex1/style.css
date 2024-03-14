@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #C1BCCC;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+    content: '';
+    background: #121214;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 368px;
+    z-index: -1;
+}
+
+.app {
+    width: 736px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+header {
+    width: 319px;
+    
+}
+
+header h1 {
+    color: #FFF;
+    font-family: Archivo;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 24px;
+}
+
+header p {
+    color: #42D3FF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 42px;
+}
+
+form {
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 8px;
+    padding: 64px;
+}
+
+fieldset {
+    border: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+fieldset legend {
+    border-bottom: 1px solid #E6E6F0;
+    padding: 16px;
+    width: 100%;
+
+    color: #32264D;
+    font-family: Archivo;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-bottom: 24px;
+}
+
+.input-wrapper label {
+    color: #4E4958;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+.input-wrapper label span {
+    color: #C1BCCC;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 12px;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select
+{
+    padding: 8px;
+    height: 56px;
+    border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background: #FAFAFC;
+    width: 100%;
+}
+
